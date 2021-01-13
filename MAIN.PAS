@@ -6,7 +6,7 @@ procedure LeggiNumCar (var n :integer);
     write('Inserisci il numero di caratteri che vuoi codificare: ');
     readln(n);
     end;
-    
+
 
 procedure DecodificaCarattere (n :integer);
     var i :integer; car,somma :string;
@@ -170,16 +170,16 @@ procedure DecodificaCarattere (n :integer);
             begin
             car := 'a';
             somma := somma + car;
-            end; 
-    end;        
-    writeln('La frasa codificata Ã¨: ',somma);
+            end;
     end;
-    
-    
+    writeln('La frasa codificata Š: ',somma);
+    end;
+
+
 begin
-    repeat 
+    repeat
     writeln
-    ('Benvenuto nel decodificatore di caratteri in atbash, se desideri cominciare premi 1, se desideri uscire premi 2');
+    ('Benvenuto nel decodificatore di caratteri in atbash, se desideri cominciare premi 1, se desideri uscire premi 2. A software by DCXZ©');
     readln(v01);
     if v01 = 1 then
     begin
@@ -190,4 +190,6 @@ begin
     v02 := 3
     until v02 = 3;
 end.
- 
+
+
+
